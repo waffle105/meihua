@@ -1,0 +1,4 @@
+interface:
+  display_name: "美化PPT"
+  short_description: "将分页PPT按内容与图片逐页美化成图片版页面并合成为PPT。"
+  default_prompt: "请使用这个skill，根据我提供的分页PPT和文案素材，先设计两套视觉风格供我选择，再逐页美化并合成为一个PPT文件。"
