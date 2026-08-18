@@ -99,23 +99,12 @@ description: 中文PPT美化与图片版课件生成工作流。Use when the use
 
 完成全部图片页后，按顺序合成 PPT：
 
-- 每页一张全屏 PNG。
+- 每页一张已经包含最终文字、图片、背景与全部视觉元素的全屏 PNG。
 - 不额外叠加可编辑文字层，除非用户明确要求。
 - 保持 16:9 宽屏比例。
 - 合并后检查页数、顺序、是否黑页、是否漏页。
 
-可使用本 skill 的脚本 `scripts/images_to_pptx.mjs`。运行前按 `presentations` skill 初始化 `@oai/artifact-tool` 工作区。
-
-示例：
-
-```powershell
-node path\to\setup_artifact_tool_workspace.mjs --workspace "C:\path\to\work"
-node C:\Users\zyiho\.codex\skills\meihua\scripts\images_to_pptx.mjs `
-  --image-dir "C:\path\to\images-generated" `
-  --output "C:\path\to\final.pptx" `
-  --count 28 `
-  --workspace "C:\path\to\work"
-```
+禁止默认使用脚本或程序化生成方式自动合成 PPTX；只有在用户明确授权“可以用脚本/程序合成”时才允许使用。若用户要求“直接生成图片带文字的 PPT”，必须先完成每页带文字的成品图片，再把图片逐页放入 PPT。
 
 ## 推荐输出结构
 
