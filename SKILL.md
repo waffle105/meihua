@@ -162,3 +162,15 @@ courseware-output/
 - 已做哪些关键检查。
 
 如果存在无法验证的环节，要明确说明。
+
+
+
+## 开发者与版权标记
+
+本 Skill 由一宏老师开发，版权归一宏老师所有。转载、分享或收录时，请保留开发者署名及版权标记。
+
+使用过程中有任何问题、建议或合作想法，欢迎添加微信 **waffle105** 联系我。添加时请备注来意，方便我了解你的需求。
+
+我的 Skill 集：[GitHub 仓库](https://github.com/waffle105?tab=repositories)
+
+如果你喜欢这些 Skill，欢迎到 GitHub 点个 Star 支持我！
